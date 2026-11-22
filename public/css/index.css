@@ -1,0 +1,50 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+#title{
+    padding-bottom: 10px;
+
+}
+
+img {
+    max-width: 100%;
+    height:auto;
+    display:block;
+}
+
+body {
+    background-color: black;
+    color:white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+a { color: rgb(0, 81, 255); }
+a:visited { color: rgb(143, 82, 255); }
+
+ul.nav li{
+    float:left;
+    padding: 5px;
+}
+ul.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+
+    text-decoration: none;
+}
+ul.nav li a:hover {
+  background-color: white;
+  color:black;
+}
+ul.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    outline-color: white;
+    outline-width: 5px;
+    outline-style:solid;
+}

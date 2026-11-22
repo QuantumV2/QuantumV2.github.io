@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ '/css/index.css' | url }}" />
+    <title>{{ title }}</title>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:description" content="{{ content | truncate(100) }}" />
+</head>
+<body>
+<script src="{{ '/js/index.js' | url }}"></script>
+<div id="title">{{title}}</div>
+<ul class="nav">
+  <li><a href="{{ '/' | url }}">go home</a></li>
+  <li>|</li>
+  <li><a href="{{ '/blog' | url }}">go blog</a></li>
+  <li>|</li>
+  <li><a href="{{ '/projects' | url }}">go projects</a></li>
+</ul>
+<hr>
+{{ content | safe }}
+</body>
+</html>
