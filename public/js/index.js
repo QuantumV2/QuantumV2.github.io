@@ -1,7 +1,7 @@
 let dumbTexts = document.getElementsByClassName("dumbText")
 
-function gamzeeify(txts){
-    for (let txt of txts) {
+function gamzeeify(){
+    for (let txt of dumbTexts) {
         let out = ""
         
         txt.innerText.split('').forEach(c => {
@@ -16,6 +16,7 @@ function gamzeeify(txts){
         txt.innerText = out
     };
     setTimeout(gamzeeify, 500, dumbTexts)
+    dumbTexts = document.getElementsByClassName("dumbText")
 }
 
-gamzeeify(dumbTexts)
+gamzeeify()
