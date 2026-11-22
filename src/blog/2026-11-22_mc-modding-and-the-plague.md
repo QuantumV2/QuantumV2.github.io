@@ -32,6 +32,11 @@ Okay. This doesnt look good. Okay, lets give them another benefit of the doubt a
 
 There is lots to address on this page but especially a mod named after child genitals. What the fuck?
 
+__Edit__: BUT THATS NOT ALL!
+<img src="{{'/assets/imgs/posts/cleanroom/rongmario_whatthefuck.png' | url}}">
+
+Just found this under some other discussions. Holy shit! 
+
 <hr>
 
 You might be thinking, "Who is this and what do they have to do with anything? I have not seen CleanroomMC ever!"
